@@ -25,7 +25,7 @@ import java.util.regex.Pattern;
 public class CertificateService {
 
     private static final String API_URL = "http://openapi.q-net.or.kr/api/service/rest/InquiryQualInfo/getList";
-    private static final String API_KEY = "REMOVED";
+    private static final String API_KEY = "";
     private static final String SERVICE_CODE = "01"; // (계열코드) 01:기술사, 02:기능장, 03:기사, 04:기능사
     private static final NationalTechCode nationalTechCode = NationalTechCode.of(SERVICE_CODE);
 
